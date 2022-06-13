@@ -1,0 +1,11 @@
+pandas
+numpy
+streamlit
+pickle
+sklearn
+xgboost
+time
+BeautifulSoup
+re
+datetime
+requests
