@@ -64,7 +64,7 @@ wypos = st.multiselect(
 
 # Predykcja
 
-with open('data\otomoto_data_one_col.pickle', 'rb') as f:
+with open('otomoto_data_one_col.pickle', 'rb') as f:
         otomoto_data_one_col =  pickle.load(f)
 
 df_pred = pd.DataFrame(columns=[x for x in otomoto_data_one_col.columns if x != 'price'])
@@ -144,8 +144,3 @@ if st.button('Predykcja'):
      preds_xgboost = model_xgb.predict(xgb.DMatrix(df_pred), ntree_limit=100)
      st.subheader("Wg modelu XGBoost, samochód jest wart ok. ")
      st.header('**'+str(int(preds_xgboost[0]))+'**' + ' PLN')
-
-# model_xgb = xgb.Booster()
-# model_xgb.load_model("models/model_xgb.txt")
-
-# model_xgb.predict
