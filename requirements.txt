@@ -3,7 +3,7 @@ numpy
 streamlit
 pickle5
 sklearn
-xgboost
+xgboost==1.6.0
 time
 beautifulsoup4
 re
