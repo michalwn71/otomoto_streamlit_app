@@ -3,9 +3,6 @@ numpy
 streamlit
 pickle5
 sklearn
-xgboost==1.6.0
-time
+xgboost
 beautifulsoup4
 re
-datetime
-requests
