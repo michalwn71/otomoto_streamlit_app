@@ -1,11 +1,11 @@
 pandas
 numpy
 streamlit
-pickle
+pickle5
 sklearn
 xgboost
 time
-BeautifulSoup
+beautifulsoup4
 re
 datetime
 requests
